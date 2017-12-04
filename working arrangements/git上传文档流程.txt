@@ -1,0 +1,11 @@
+1、下载Git Base;
+2、在本地新建文件夹，在文件夹中右键然后点击Git Base Here;
+3、在命令行输入"git clone https://github.com/18332537647/working-arrangements.git";
+4、打开working arrangements文件夹即可查看工作安排的excel表格;
+5、修改完毕后保存文件，然后打开git base 在命令行输入以下代码完成提交：
+   a)git add . 
+   b)git commit -m "注释"
+   c)git push -u origin master
+6、每次想修改文件时，需利用git命令获取github上最新文件，在 git base 命令行输入以下代码完成更新：
+   a)git fetch origin  
+   b)git merge origin/master
